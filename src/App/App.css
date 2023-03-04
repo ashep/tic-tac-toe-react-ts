@@ -1,0 +1,9 @@
+body {
+  min-height: 100%;
+  /* position: relative; */
+}
+
+#root {
+  width: 300px;
+  margin: 25vh auto 0 auto;
+}

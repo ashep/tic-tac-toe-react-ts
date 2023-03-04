@@ -1,0 +1,31 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid .info {
+    text-align: center;
+    font-size: 2em;
+}
+
+.grid .row {
+    display: flex;
+}
+
+.grid .field {
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 30px;
+}
+
+.grid .field-x {
+    background-color: darkkhaki;
+}
+
+.grid .field-o {
+    background-color: darkgray;
+}
+
